@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Qualification = () => {
+const Education = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Qualification = () => {
   )
 }
 
-export default Qualification
+export default Education
