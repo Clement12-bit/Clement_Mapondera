@@ -58,7 +58,7 @@ const Data = () => {
             <p className="home__description">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
             </p>
-            <a href="#contacts" className="button button--flex">
+            <a href="#contact" className="button button--flex">
                 Say Hi
                 <svg
                   class="button__icon"
