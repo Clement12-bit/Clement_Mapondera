@@ -10,7 +10,7 @@
 .nav{
     height: calc(var(--header-height) + 1.5rem);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     column-gap: 1rem;
 }
@@ -19,6 +19,10 @@
 .nav__toggle{
     color: var(--title-color);
     font-weight: var(--font-medium);
+}
+
+.logo__img{
+    width: 5rem;
 }
 
 .nav__list{
@@ -47,6 +51,12 @@
 .nav__link:hover{
     color: var(--title-dark-color);
 }
+
+/*Change background header */
+.scroll-header{
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
+
 
 /*===========break poits===========*/
 @media screen and (max-width: 768px){
@@ -109,7 +119,7 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 350px){
     .nav__menu{
         padding: 2rem 0.25rem 4rem;
     }
