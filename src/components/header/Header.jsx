@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
+// eslint-disable-next-line 
 import Logo from "../../assets/logo.jpeg";
 
 const Header = () => {
