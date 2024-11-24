@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
 // eslint-disable-next-line 
-import Logo from "../../assets/logo.jpeg";
+import Logo from "../../assets/logo.PNG";
 
 const Header = () => {
     /*===========CHANGE BACKGROUND HEADER===========*/
