@@ -17,9 +17,13 @@ const About = () => {
                     <Info />
 
                     <p className="about__description">
-                    Contrary to popular belief, Lorem Ipsum is not simply random text. 
-                    It has roots in a piece of classical Latin literature from 45 BC, 
-                    making it over 2000 years old.
+                    I have several years of experience designing, coding, 
+                    and implementing efficient software solutions. 
+                    My specializations are web development and data analysis. 
+                    I am passionate about solving complex problems, optimizing performance, 
+                    and continuously learning to stay at the forefront of technology. 
+                    With a keen eye for detail and a collaborative mindset, 
+                    I strive to create innovative solutions that drive success.
                     </p>
 
                     <a download="" href={CV} className="button button--flex">
