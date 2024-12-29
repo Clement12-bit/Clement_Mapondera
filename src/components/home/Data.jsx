@@ -54,7 +54,7 @@ const Data = () => {
                   ></path>
                 </svg>
             </h1>
-            <h3 className="home__subtitle">Computer Programmer</h3>
+            <h3 className="home__subtitle">Software Engineer</h3>
             <p className="home__description">
             I am a creative designer and developer based in Malawi. 
             I am very passionate and dedicated to my work.
