@@ -1,32 +1,32 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.JPEG";
-import CV from "../../assets/John-Cv.pdf";
+//import CV from "../../assets/John-Cv.pdf";
 import Info from "./Info";
 
 const About = () => {
-    return(
-        <section className="about section" id="about">
-            <h2 className="section__title">About Me</h2>
-            <span className="section__subtitle">My Introduction</span>
+  return (
+    <section className="about section" id="about">
+      <h2 className="section__title">About Me</h2>
+      <span className="section__subtitle">My Introduction</span>
 
-            <div className="about__container container grid">
-                <img src={AboutImg} alt="" className="about__img" />
+      <div className="about__container container grid">
+        <img src={AboutImg} alt="" className="about__img" />
 
-                <div className="about__data">
-                    <Info />
+        <div className="about__data">
+          <Info />
 
-                    <p className="about__description">
-                    I have several years of experience designing, coding, 
-                    and implementing efficient software solutions. 
-                    My specializations are web development and data analysis. 
-                    I am passionate about solving complex problems, optimizing performance, 
-                    and continuously learning to stay at the forefront of technology. 
-                    With a keen eye for detail and a collaborative mindset, 
-                    I strive to create innovative solutions that drive success.
-                    </p>
+          <p className="about__description">
+            I have several years of experience designing, coding, and
+            implementing efficient software solutions. My specializations are
+            web development and data analysis. I am passionate about solving
+            complex problems, optimizing performance, and continuously learning
+            to stay at the forefront of technology. With a keen eye for detail
+            and a collaborative mindset, I strive to create innovative solutions
+            that drive success.
+          </p>
 
-                    <a download="" href={CV} className="button button--flex">
+          {/*<a download="" href={CV} className="button button--flex">
                         Download CV
 
                         <svg
@@ -54,11 +54,11 @@ const About = () => {
                             fill="var(--container-color)"
                             ></path>
                         </svg>
-                    </a>
-                </div>
-            </div>
-        </section>
-    )
-}
+                    </a>*/}
+        </div>
+      </div>
+    </section>
+  );
+};
 
-export default About
+export default About;
