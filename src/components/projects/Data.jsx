@@ -12,17 +12,17 @@ export const projectsData = [
   },
   {
     id: 2,
-    image: Work2,
-    title: "Mobile Apps",
-    category: "app",
-    url: "https://ccap-hyms.netlify.app/",
-  },
-  {
-    id: 3,
     image: Work3,
     title: "Web Design",
     category: "web",
     url: "https://school-system-jet.vercel.app",
+  },
+  {
+    id: 3,
+    image: Work2,
+    title: "Mobile Apps",
+    category: "app",
+    url: "https://ccap-hyms.netlify.app/",
   },
 ];
 
