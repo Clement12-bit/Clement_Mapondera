@@ -22,7 +22,7 @@ export const projectsData = [
     image: Work2,
     title: "Mobile Apps",
     category: "app",
-    url: "https://ccap-hyms.netlify.app/",
+    url: "https://hyms-clement12-bits-projects.vercel.app/",
   },
 ];
 
