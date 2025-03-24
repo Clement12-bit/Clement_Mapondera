@@ -15,7 +15,7 @@ export const projectsData = [
     image: Work3,
     title: "Web Design",
     category: "web",
-    url: "https://school-system-jet.vercel.app",
+    url: "https://maphunziro.vercel.app",
   },
   {
     id: 3,
