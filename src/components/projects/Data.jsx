@@ -25,13 +25,13 @@ export const projectsData = [
     category: "web",
     url: "https://maphunziro.vercel.app",
   },
-  {
+  /*{
     id: 4,
     image: Work4,
     title: "Mobile Apps",
     category: "app",
     url: "https://hyms-clement12-bits-projects.vercel.app/",
-  },
+  },*/
 ];
 
 export const projectsNav = [
