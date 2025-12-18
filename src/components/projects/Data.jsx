@@ -1,7 +1,7 @@
 import Work1 from "../../assets/novacraft.webp";
 import Work2 from "../../assets/travellers.png";
 import Work3 from "../../assets/maphunziroApp.png";
-import Work4 from "../../assets/sms.png";
+//import Work4 from "../../assets/sms.png";
 
 export const projectsData = [
   {
